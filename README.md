@@ -6,13 +6,23 @@ Includes syntax, indentation, and comment support, without depending on a static
 
 ## Installation
 
+As a normal user:
+
 ```sh
-sudo su -  # become `root` user
-cd
-mkdir -p ~/.vim/pack/user/start  # create an autostarting directory
-cd ~/.vim/pack/user/start  # change to that directory
-git clone https://github.com/isobit/vim-caddyfile.git  # clone this repository
+mkdir -p ~/.vim/pack/user/start
+cd ~/.vim/pack/user/start
+git clone https://github.com/iacchus/vim-caddy-server-syntax
+```
+
+If you are running vim/nvim with `sudo` maybe you'll need to install it as `root` usee instead:
+
+```sh
+sudo su -
+mkdir -p ~/.vim/pack/user/start
+cd ~/.vim/pack/user/start
+git clone https://github.com/iacchus/vim-caddy-server-syntax
 ```
 
 ## Preview
+
 ![preview](https://raw.githubusercontent.com/isobit/vim-caddyfile/images/caddyfile-preview.png)
