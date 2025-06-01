@@ -12,14 +12,14 @@ setlocal commentstring=#\ %s
 " Add NERDCommenter delimiters
 let s:delimiters = {'left': '#'}
 if exists('g:NERDDelimiterMap')
-	if !has_key(g:NERDDelimiterMap, 'caddyfile')
-		let g:NERDDelimiterMap.caddyfile = s:delimiters
+	if !has_key(g:NERDDelimiterMap, 'caddy')
+		let g:NERDDelimiterMap.caddy = s:delimiters
 	endif
 elseif exists('g:NERDCustomDelimiters')
-	if !has_key(g:NERDCustomDelimiters, 'caddyfile')
-		let g:NERDCustomDelimiters.caddyfile = s:delimiters
+	if !has_key(g:NERDCustomDelimiters, 'caddy')
+		let g:NERDCustomDelimiters.caddy = s:delimiters
 	endif
 else
-	let g:NERDCustomDelimiters = {'caddyfile': s:delimiters}
+	let g:NERDCustomDelimiters = {'caddy': s:delimiters}
 endif
 unlet s:delimiters

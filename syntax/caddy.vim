@@ -45,4 +45,4 @@ hi link caddyComment Comment
 hi link caddyNamedMatcherDef caddyNamedMatcher
 hi link caddyNamedMatcher Identifier
 
-let b:current_syntax = "caddyfile"
+let b:current_syntax = "caddy"

@@ -1,4 +1,4 @@
-# vim-caddyfile
+# vim-caddy-server-syntax
 
 Vim support for [Caddy's](https://caddyserver.com/) [Caddyfile](https://caddyserver.com/docs/caddyfile).
 
