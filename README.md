@@ -6,7 +6,7 @@ Includes syntax, indentation, and comment support, without depending on a static
 
 ## Installation
 
-As a normal user:
+As a **normal user**:
 
 ```sh
 mkdir -p ~/.vim/pack/user/start
@@ -14,7 +14,7 @@ cd ~/.vim/pack/user/start
 git clone https://github.com/iacchus/vim-caddy-server-syntax
 ```
 
-If you are running vim/nvim with `sudo` maybe you'll need to install it as `root` usee instead:
+If you are running vim/nvim with `sudo` maybe you'll need to install it **as `root` user** instead:
 
 ```sh
 sudo su -
