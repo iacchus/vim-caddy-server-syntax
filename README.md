@@ -14,7 +14,7 @@ cd ~/.vim/pack/user/start
 git clone https://github.com/iacchus/vim-caddy-server-syntax
 ```
 
-If you are running vim/nvim with `sudo` maybe you'll need to install it **as `root` user** instead:
+If you are running vim/neovim **with `sudo` and the syntax highlighting isn't appearing**, you'll need to install it **as `root` user** instead:
 
 ```sh
 sudo su -
